@@ -36,6 +36,7 @@ public class doSomething {
         girl.date();
         System.out.println("中场休息...");
         girl.watchMovie();
+        girl.paPaPa(1);
         System.out.println("方法一结束");
         System.out.println("=======================================");
         System.out.println("=======================================");
@@ -45,6 +46,7 @@ public class doSomething {
         proxy.date();
         System.out.println("中场休息...");
         proxy.watchMovie();
+        proxy.paPaPa(2);
         System.out.println("方法二结束");
         System.out.println("=======================================");
         System.out.println("=======================================");
@@ -61,6 +63,7 @@ public class doSomething {
         target.date();
         System.out.println("中场休息...");
         target.watchMovie();
+        target.paPaPa(3);
         System.out.println("方法三结束");
         System.out.println("=======================================");
         System.out.println("JDK动态代理结束");
@@ -75,6 +78,7 @@ public class doSomething {
         proxy.date();
         System.out.println("中场休息...");
         proxy.watchMovie();
+        proxy.paPaPa(7);
         System.out.println("Cglib代理结束");
         System.out.println("=======================================");
     }

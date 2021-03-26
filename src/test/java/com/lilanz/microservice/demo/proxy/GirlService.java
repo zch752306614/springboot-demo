@@ -9,4 +9,5 @@ public interface GirlService {
     void date();
     void watchMovie();
     void paPaPa();
+    void paPaPa(Integer times);
 }

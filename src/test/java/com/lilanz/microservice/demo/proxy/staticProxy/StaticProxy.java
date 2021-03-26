@@ -31,6 +31,11 @@ public class StaticProxy implements GirlService {
 
     @Override
     public void paPaPa() {
+        System.out.println("paPaPa...");
+    }
 
+    @Override
+    public void paPaPa(Integer times) {
+        System.out.println("一夜" + times + "郎！！！");
     }
 }

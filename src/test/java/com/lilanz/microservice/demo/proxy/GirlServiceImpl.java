@@ -20,4 +20,9 @@ public class GirlServiceImpl implements GirlService {
     public void paPaPa() {
         System.out.println("paPaPa...");
     }
+
+    @Override
+    public void paPaPa(Integer times) {
+        System.out.println("一夜" + times + "郎！！！");
+    }
 }
