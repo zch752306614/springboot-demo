@@ -7,10 +7,10 @@ import com.lilanz.microservice.demo.proxy.GirlService;
  * @version 1.0
  * @date 2021/3/26 9:40
  */
-public class GirlServiceProxy implements GirlService {
+public class StaticProxy implements GirlService {
     private GirlService girlService;
 
-    public GirlServiceProxy(GirlService girlService) {
+    public StaticProxy(GirlService girlService) {
         this.girlService = girlService;
     }
 
